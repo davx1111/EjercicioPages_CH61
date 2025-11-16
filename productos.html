@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | Snoopy Coffee</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">SnoopyCoffee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html">Carrito</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Nuestros Productos</h2>
+
+        <div class="row g-4">
+
+            <!-- Producto 1 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="./assets/prod1.png" class="product-img" 
+                         alt="Bolsa de café Classic Roast Coffee de SnoopyCoffee"
+                         loading="lazy">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Classic Roast Coffee</h5>
+                        <p class="product-price">$299 MXN</p>
+                        <button class="btn btn-coffee w-100 btnAgregar"
+                            data-id="1"
+                            data-nombre="Classic Roast Coffee"
+                            data-precio="299"
+                            data-img="./assets/prod1.png"
+                            aria-label="Agregar Classic Roast Coffee al carrito">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="./assets/prod2.png" class="product-img" 
+                         alt="Bolsa de café Dark Espresso Blend de SnoopyCoffee"
+                         loading="lazy">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dark Espresso Blend</h5>
+                        <p class="product-price">$349 MXN</p>
+                        <button class="btn btn-coffee w-100 btnAgregar"
+                            data-id="2"
+                            data-nombre="Dark Espresso Blend"
+                            data-precio="349"
+                            data-img="./assets/prod2.png"
+                            aria-label="Agregar Dark Espresso Blend al carrito">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="./assets/prod3.png" class="product-img" 
+                         alt="Bolsa de café Vanilla Latte Mix de SnoopyCoffee"
+                         loading="lazy">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Vanilla Latte Mix</h5>
+                        <p class="product-price">$279 MXN</p>
+                        <button class="btn btn-coffee w-100 btnAgregar"
+                            data-id="3"
+                            data-nombre="Vanilla Latte Mix"
+                            data-precio="279"
+                            data-img="./assets/prod3.png"
+                            aria-label="Agregar Vanilla Latte Mix al carrito">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="./assets/prod4.png" class="product-img" 
+                         alt="Bolsa de café Mocha Cappuccino Mix de SnoopyCoffee"
+                         loading="lazy">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mocha Cappuccino Mix</h5>
+                        <p class="product-price">$289 MXN</p>
+                        <button class="btn btn-coffee w-100 btnAgregar"
+                            data-id="4"
+                            data-nombre="Mocha Cappuccino Mix"
+                            data-precio="289"
+                            data-img="./assets/prod4.png"
+                            aria-label="Agregar Mocha Cappuccino Mix al carrito">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="./assets/prod5.png" class="product-img" 
+                         alt="Bolsa de café Caramel Macchiato Mix de SnoopyCoffee"
+                         loading="lazy">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Caramel Macchiato Mix</h5>
+                        <p class="product-price">$319 MXN</p>
+                        <button class="btn btn-coffee w-100 btnAgregar"
+                            data-id="5"
+                            data-nombre="Caramel Macchiato Mix"
+                            data-precio="319"
+                            data-img="./assets/prod5.png"
+                            aria-label="Agregar Caramel Macchiato Mix al carrito">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 6 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <img src="./assets/prod6.png" class="product-img" 
+                         alt="Bolsa de café Iced Coffee Mix de SnoopyCoffee"
+                         loading="lazy">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Iced Coffee Mix</h5>
+                        <p class="product-price">$259 MXN</p>
+                        <button class="btn btn-coffee w-100 btnAgregar"
+                            data-id="6"
+                            data-nombre="Iced Coffee Mix"
+                            data-precio="259"
+                            data-img="./assets/prod6.png"
+                            aria-label="Agregar Iced Coffee Mix al carrito">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0">© 2025 SnoopyCoffee - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript propio -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
