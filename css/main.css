@@ -1,0 +1,26 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fafafa;
+}
+
+/* Personalización de botones */
+.btn-primary {
+  background-color: #0069d9;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #004b9a;
+}
+
+/* Navbar */
+.navbar-brand strong {
+  font-family: 'Elms Sans', sans-serif;
+  font-size: 1.3rem;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}

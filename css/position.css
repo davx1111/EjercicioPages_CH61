@@ -1,0 +1,13 @@
+.text-center {
+    text-align: center;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt-6 {
+    margin-top: 4rem;
+}
